@@ -1,0 +1,371 @@
+body {
+	background-image: url("https://www.geekinsider.com/wp-content/uploads/2014/09/Nintendo-Lineup1.png");
+	background-color: gray;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  background-size: 100%;
+  padding: 5vh;
+  animation-name: color-change;
+  -moz-animation-name: color-change;
+  -webkit-animation-name: color-change;
+  animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  font-family: 'Press Start 2P', cursive;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+h2 {
+  color: red;
+  text-align: center;
+  background-size: 100%;
+  padding: 2vh;
+  animation-name: color-change;
+  -moz-animation-name: color-change;
+  -webkit-animation-name: color-change;
+  animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  font-family: 'Press Start 2P', cursive;
+}
+
+@keyframes color-change2 {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    background-color: white;
+  }
+}
+
+#colorTvGame img {
+    width: 96vw;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#colorTvGame p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.7vh;
+    bottom: 0;
+    padding-top: 20vh;
+    padding-bottom: 0;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.7);
+    font-family: 'Press Start 2P', Cursive;
+    width: 100.3vh;
+    height: 55vh;
+    opacity: 0;
+    text-align: center;
+    transition-duration: 1s;
+    display: block;
+}
+
+#colorTvGame p:hover {
+    opacity: 1;
+    box-shadow: 0 0 1vh black;
+}
+
+#colorTvGame {
+    position: relative;
+}
+
+#NES img {
+    width: 96vw;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#NES p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.7vh;
+    bottom: 0;
+    padding-top: 30vh;
+    padding-bottom: 0;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.7);
+    font-family: 'Press Start 2P', Cursive;
+    width: 100.3vh;
+    height: 45vh;
+    opacity: 0;
+    text-align: center;
+    transition-duration: 1s;
+    display: block;
+}
+
+#NES p:hover {
+    opacity: 1;
+    box-shadow: 0 0 1vh black;
+}
+
+#NES {
+    position: relative;
+}
+
+#SNES img {
+    width: 96vw;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#SNES p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.7vh;
+    bottom: 0;
+    padding-top: 25vh;
+    padding-bottom: 0;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.7);
+    font-family: 'Press Start 2P', Cursive;
+    width: 100.3vh;
+    height: 50vh;
+    opacity: 0;
+    text-align: center;
+    transition-duration: 1s;
+    display: block;
+}
+
+#SNES p:hover {
+    opacity: 1;
+    box-shadow: 0 0 1vh black;
+}
+
+#SNES {
+    position: relative;
+}
+
+#TheVirtualBoy img {
+    width: 96vw;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#TheVirtualBoy p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.7vh;
+    bottom: 0;
+    padding-top: 25vh;
+    padding-bottom: 0;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.7);
+    font-family: 'Press Start 2P', Cursive;
+    width: 100.3vh;
+    height: 50vh;
+    opacity: 0;
+    text-align: center;
+    transition-duration: 1s;
+    display: block;
+}
+
+#TheVirtualBoy p:hover {
+    opacity: 1;
+    box-shadow: 0 0 1vh black;
+}
+
+#TheVirtualBoy {
+    position: relative;
+}
+
+#Nintendo64 img {
+    width: 96vw;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#Nintendo64 p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.7vh;
+    bottom: 0;
+    padding-top: 25vh;
+    padding-bottom: 0;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.7);
+    font-family: 'Press Start 2P', Cursive;
+    width: 100.3vh;
+    height: 50vh;
+    opacity: 0;
+    text-align: center;
+    transition-duration: 1s;
+    display: block;
+}
+
+#Nintendo64 p:hover {
+    opacity: 1;
+    box-shadow: 0 0 1vh black;
+}
+
+#Nintendo64 {
+    position: relative;
+}
+
+#GameCube img {
+    width: 96vw;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#GameCube p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.7vh;
+    bottom: 0;
+    padding-top: 25vh;
+    padding-bottom: 0;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.7);
+    font-family: 'Press Start 2P', Cursive;
+    width: 100.3vh;
+    height: 50vh;
+    opacity: 0;
+    text-align: center;
+    transition-duration: 1s;
+    display: block;
+}
+
+#GameCube p:hover {
+    opacity: 1;
+    box-shadow: 0 0 1vh black;
+}
+
+#GameCube {
+    position: relative;
+}
+
+#wii img {
+    width: 96vw;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#wii p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.7vh;
+    bottom: 0;
+    padding-top: 25vh;
+    padding-bottom: 0;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.7);
+    font-family: 'Press Start 2P', Cursive;
+    width: 100.3vh;
+    height: 50vh;
+    opacity: 0;
+    text-align: center;
+    transition-duration: 1s;
+    display: block;
+}
+
+#wii p:hover {
+    opacity: 1;
+    box-shadow: 0 0 1vh black;
+}
+
+#wii {
+    position: relative;
+}
+
+#wiiU img {
+    width: 96vw;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#wiiU p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.7vh;
+    bottom: 0;
+    padding-top: 25vh;
+    padding-bottom: 0;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.7);
+    font-family: 'Press Start 2P', Cursive;
+    width: 100.3vh;
+    height: 50vh;
+    opacity: 0;
+    text-align: center;
+    transition-duration: 1s;
+    display: block;
+}
+
+#wiiU p:hover {
+    opacity: 1;
+    box-shadow: 0 0 1vh black;
+}
+
+#wiiU {
+    position: relative;
+}
+
+#switch img {
+    width: 96vw;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#switch p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1.7vh;
+    bottom: 0;
+    padding-top: 25vh;
+    padding-bottom: 0;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.7);
+    font-family: 'Press Start 2P', Cursive;
+    width: 100.3vh;
+    height: 50vh;
+    opacity: 0;
+    text-align: center;
+    transition-duration: 1s;
+    display: block;
+}
+
+#switch p:hover {
+    opacity: 1;
+    box-shadow: 0 0 1vh black;
+}
+
+#switch {
+    position: relative;
+}
